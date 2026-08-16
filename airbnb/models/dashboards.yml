@@ -1,0 +1,17 @@
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://0893f26e.us1a.app.preset.io/superset/dashboard/8/?native_filters_key=gfPHWQjKhhY
+    description: Executive Dashboard about Airbnb listings and hosts
+
+
+    depends_on:
+      - ref('dim_listings_cleansed')
+      - ref('mart_fullmoon_reviews')
+      - ref('dim_hosts_cleansed')
+
+    owner:
+      name: Olga Troshina
+      email: troshina.olga20@gmail.com
