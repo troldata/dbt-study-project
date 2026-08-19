@@ -9,7 +9,7 @@ airbnb/logs/
 airbnb/target/
 airbnb/target-prod/
 logs/
-
+_course_resources
 airbnb/package-lock.yml
 airbnb/dbt_packages/
 airbnb/dbt_internal_packages/
